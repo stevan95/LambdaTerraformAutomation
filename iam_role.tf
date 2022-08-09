@@ -1,7 +1,6 @@
-#Policy for Lambda execution
 resource "aws_iam_role" "lambda_role" {
   name = "lambda-s3-execution-role-test01-atlas"
-  description = "AWS role for Snowflake"
+  description = "AWS role for Lambda function"
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
     Statement = [
