@@ -19,3 +19,8 @@ variable "iam_policy_arn" {
   default = ["arn:aws:iam::aws:policy/AWSLambdaExecute", "arn:aws:iam::aws:policy/AmazonElasticTranscoder_JobsSubmitter", "arn:aws:iam::aws:policy/AmazonS3FullAccess"]
 }
 
+variable "transcoded_video" {
+  type = string
+  default = "serverless-video-transcoded-atlas"
+}
+
