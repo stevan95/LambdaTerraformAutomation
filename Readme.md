@@ -16,8 +16,9 @@ Create folder structure like /layer/aws/nodejs and runs following commands:
 
 ```sh
 mkdir -p /layer/aws/nodejs
+cd /layer/aws/nodejs
 npm init -y
-node install aws-sdk
+npm install aws-sdk
 ```
 
 ## Open issue
