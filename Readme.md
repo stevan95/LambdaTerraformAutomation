@@ -25,7 +25,7 @@ npm install aws-sdk
 
 List of currently open issue
 
-| Issue | Description |
-| ------ | ------ |
-| PipelineID | After creation of infrastructure you have to specify pipeline Id manulay for ElasticTranscoder. Value of pipelineID is provided in output variable. |
-| Trigger | Implement trigger creation for lambda function using terraform. This process is also manual. |
+| Issue | Description | STATUS |
+| ------ | ------ | ------ |
+| PipelineID | After creation of infrastructure you have to specify pipeline Id manulay for ElasticTranscoder. Value of pipelineID is provided in output variable. | IN PROGRESS |
+| Trigger | Implement trigger creation for lambda function using terraform. This process is also manual. | DONE |
