@@ -27,5 +27,9 @@ List of currently open issue
 
 | Issue | Description | STATUS |
 | ------ | ------ | ------ |
-| PipelineID | After creation of infrastructure you have to specify pipeline Id manulay for ElasticTranscoder. Value of pipelineID is provided in output variable. | IN PROGRESS |
+| S3 Creation | Automate process S3 buckets creation using terraform. | DONE |
+| IAM Role | Automate precess or IAM role creation and attach desired policy to it using terraform. | DONE |
+| Elastic Transcoder | Automate process Elastic Transcoder Creation | DONE |
+| Lambda Transcode | Automate process of creation of Lambda function which will be used to creat job for Elastic Transcoder and also use Layer abstraction to package all neccessary modules. | DONE |
 | Trigger | Implement trigger creation for lambda function using terraform. This process is also manual. | DONE |
+| PipelineID | After creation of infrastructure you have to specify pipeline Id manulay for ElasticTranscoder. Value of pipelineID is provided in output variable. | IN PROGRESS |
