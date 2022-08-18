@@ -33,3 +33,8 @@ List of currently open issue
 | Lambda Transcode | Automate process of creation of Lambda function which will be used to creat job for Elastic Transcoder and also use Layer abstraction to package all neccessary modules. | DONE |
 | Trigger | Implement trigger creation for lambda function using terraform. This process is also manual. | DONE |
 | PipelineID | After creation of infrastructure you have to specify pipeline Id manulay for ElasticTranscoder. Value of pipelineID is provided in output variable. | IN PROGRESS |
+| SNS Servic | Automate creation of topic ans subscriber | IN PROGRESS |
+| E-mail     | Add email notificatio when object is uploaded to S3| IN PROGRESS |
+| Lambda2    | Automate creation of lambda which will be used to change ownership of S3 objects to public. | IN PROGRESS |
+| Lambda3    | Automate creation of lambda which will be used to pick and store metadata about objects.    | IN PROGRESS |
+| Auth0      | Implement authentication and authorization to app using Auth0 extrtnal service.             | IN PROGRESS |
